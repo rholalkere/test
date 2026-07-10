@@ -1,25 +1,32 @@
-  ### 🏛️ 1. Core Business Capabilities & Capacity
+### 💵 1. Base Wholesale Pricing
   
-  • Daily Supply Capacity: What is your maximum daily egg sourcing and dispatch limit? (e.g., "Capacity to supply 50,000+ certified cage-free eggs daily").
-  • Cold-Chain Infrastructure: The details of your logistics network (e.g., number of temperature-controlled vehicles, warehouse square footage, or cold storage specs in Bangalore Rural).
-  • Sourcing Network: How many verified cage-free farms in Karnataka are currently integrated into the PearlEgg supply network?
+  • Base Price per Egg: What is the baseline cost per egg before any discounts? (e.g., ₹5.00 or ₹6.00 per egg).
+  • Price Adjustment Policy: Is B2B pricing fixed on the website, or is it a starting point for negotiation in the RFQ bidding process?
   ──────
-  ### 🗺️ 2. Business Architecture (The Operational Flow)
+  ### 📊 2. Tiered Wholesale Pricing (Volume Discounts)
   
-  We need the step-by-step description of how PearlEgg operates behind the scenes:
+  We need to confirm the exact quantity brackets and corresponding discount percentages:
   
-  1. Farm Sourcing: (e.g., "Direct daily pickup from partner farms in Mandya and Channapatna").
-  2. UV Sanitization & Candling: (e.g., "Automatic cleaning and grading at our Bangalore Rural Hub").
-  3. Insulated Dispatch: (e.g., "Temperature-regulated routing directly to client docks").
-  4. Logistics Continuity: How do you guarantee 100% supply uptime during farm shortages or transport delays? (e.g., "Buffer storage reserves and backup fleet lines").
+  • Tier 1 (500 – 999 Eggs): Base Price (No discount).
+  • Tier 2 (1,000 – 4,999 Eggs): Is 5% off correct?
+  • Tier 3 (5,000+ Eggs): Is 10% off correct?
+  • Custom Brackets: Do you have larger tiers (e.g., 10,000+ eggs) with higher discounts?
   ──────
-  ### 🤝 3. Current Clients & Corporate Partnerships
+  ### 🏷️ 3. Coupon & Promo Codes
   
-  • Case Studies / Testimonials: How PearlEgg solves supply issues for major partners (e.g. how you maintain a 100% on-time daily delivery rate for Taj Hotels or elite cafe chains).
-  • Partner Profile (Dilip): Who is partner Dilip in the business structure? (e.g., "Logistics Director, co-founder, or master distributor"). Knowing this helps us write the company profile accurately.
+  We will build a coupon validation engine. We need to define:
+  
+  • Active Coupon Codes: The exact code names you want active (e.g.,  FIRSTORDER ,  FESTIVE15 ).
+  • Discount Types: For each code, is it:
+      • Percentage-based: (e.g., 10% off the total order).
+      • Flat-rate: (e.g., flat ₹1,000 off for orders over ₹10,000).
+  • Minimum Order Value: The minimum purchase value required to activate the coupon.
+  • Usage Constraints: Can a customer use a coupon multiple times, or is it limited to one-time use?
   ──────
-  ### 📜 4. Corporate Credentials & Registration Numbers
+  ### 🚫 4. Discount Combination & Restriction Rules
   
-  • Corporate Identification Number (CIN): Your company registration number.
-  • Registered Office Address: Your corporate headquarters location.
-  • Key Certifications: ISO 22000, FSSAI central license codes, and commercial quality awards.
+  We need to set the boundaries for how discounts interact in the checkout process:
+  
+  • Coupons + Tiered Pricing: Can a B2B buyer use a coupon code on top of their bulk tiered discount? (Standard business recommendation: No, coupons are blocked on tiered orders to protect profit margins).
+  • Points + Coupons (D2C Only): Can a D2C retail customer use their loyalty points and a coupon code on the same purchase?
+  • Points Accumulation Rule: Are D2C loyalty points calculated on the original price or the final discounted price after coupons are applied?
