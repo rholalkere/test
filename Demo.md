@@ -1,44 +1,25 @@
-  ### 📦 1. Product Catalog Refactoring (Single Product Focus)
+  ### 🏛️ 1. Core Business Capabilities & Capacity
   
-  We will edit the existing catalog state in the code. We need:
-  
-  • Flagship Product Description: The final copy describing the single product: "PearlEgg Premium Cage-Free Eggs" (to replace the other items in the database).
-  • Wholesale Pack Weights & Box Sizing: The exact weights and dimensions for the 210-egg Master Carton and the 500+ egg Commercial Crate (to refactor delivery calculations).
+  • Daily Supply Capacity: What is your maximum daily egg sourcing and dispatch limit? (e.g., "Capacity to supply 50,000+ certified cage-free eggs daily").
+  • Cold-Chain Infrastructure: The details of your logistics network (e.g., number of temperature-controlled vehicles, warehouse square footage, or cold storage specs in Bangalore Rural).
+  • Sourcing Network: How many verified cage-free farms in Karnataka are currently integrated into the PearlEgg supply network?
   ──────
-  ### 📜 2. Story, Nutrition & Certifications
+  ### 🗺️ 2. Business Architecture (The Operational Flow)
   
-  We will replace the climate telemetry sections on the main page with trust-building blocks. We need:
+  We need the step-by-step description of how PearlEgg operates behind the scenes:
   
-  • Our Story Copy: 2–3 paragraphs about the history of the PearlEgg farm in Bangalore Rural.
-  • Nutrition Label Values: The exact amount of protein, calories, vitamins, and fats per egg to display on the nutrition facts visualizer.
-  • Certificate PDFs: Digital scans of your FSSAI, SGS lab test, and ISO 22000 approvals to link on the download buttons.
+  1. Farm Sourcing: (e.g., "Direct daily pickup from partner farms in Mandya and Channapatna").
+  2. UV Sanitization & Candling: (e.g., "Automatic cleaning and grading at our Bangalore Rural Hub").
+  3. Insulated Dispatch: (e.g., "Temperature-regulated routing directly to client docks").
+  4. Logistics Continuity: How do you guarantee 100% supply uptime during farm shortages or transport delays? (e.g., "Buffer storage reserves and backup fleet lines").
   ──────
-  ### 💼 3. Corporate Clients (Dilip & Taj)
+  ### 🤝 3. Current Clients & Corporate Partnerships
   
-  We will refactor the partner showcase grid. We need:
-  
-  • Partner Logos & Quotes: High-resolution transparent PNG logos and short quotes from your commercial clients (Taj Hotels, elite Bangalore cafes, and key partner Dilip).
+  • Case Studies / Testimonials: How PearlEgg solves supply issues for major partners (e.g. how you maintain a 100% on-time daily delivery rate for Taj Hotels or elite cafe chains).
+  • Partner Profile (Dilip): Who is partner Dilip in the business structure? (e.g., "Logistics Director, co-founder, or master distributor"). Knowing this helps us write the company profile accurately.
   ──────
-  ### 🏷️ 4. Tiered Pricing & Coupons Refactoring
+  ### 📜 4. Corporate Credentials & Registration Numbers
   
-  We will update the pricing and discount logic in the checkout code. We need:
-  
-  • Wholesale Unit Rates: The base unit price per egg for commercial orders.
-  • Coupon Code Rules: The exact codes you want supported (e.g.,  WELCOME10 ) and their discount percentages.
-  • Tiered Discount Triggers: Confirmation of the bulk brackets (e.g., 5% off at 1,000 eggs, 10% off at 5,000 eggs).
-  ──────
-  ### 🚚 5. B2B Delivery Logistics & SLAs
-  
-  We will refactor shipping calculation boundaries. We need:
-  
-  • Serviceable Pincodes: The list of commercial pincodes in Bangalore and Mysore.
-  • Delivery Windows: The cut-off times and morning delivery hours (e.g. before 6:30 AM).
-  ──────
-  ### 🔑 6. Onboarding & Loyalty Points Parameters
-  
-  We will refactor user signup and point registers. We need:
-  
-  • Loyalty Points Conversion Ratio:
-      • How many points are earned per Rupee spent (e.g., 1 point per ₹10)?
-      • What is the cash value of 1 point during redemption (e.g., 10 points = ₹1)?
-  • Verification Settings: Do newly registered B2B accounts need manual admin approval before placing orders?
+  • Corporate Identification Number (CIN): Your company registration number.
+  • Registered Office Address: Your corporate headquarters location.
+  • Key Certifications: ISO 22000, FSSAI central license codes, and commercial quality awards.
